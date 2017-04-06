@@ -1,6 +1,6 @@
 {
    "parameters":{
-      "api-version":"2016-06-01",
+      "api-version":1,
       "resourceGroupName":"<resourceGroupName>",
       "subscriptionId":"<subscriptionId>",
       "integrationAccountName":"<integrationAccountName>",
@@ -49,7 +49,7 @@
                               "micHashingAlgorithm":"SHA1"
                            },
                            "securitySettings":{
-                              "overrideGroupSigningCertificate":false,
+                              "overrideGroupSigningCertificate":3,
                               "enableNrrForInboundEncodedMessages":true,
                               "enableNrrForInboundDecodedMessages":true,
                               "enableNrrForOutboundMdn":true,
