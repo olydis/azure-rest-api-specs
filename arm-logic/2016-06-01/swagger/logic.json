@@ -4884,6 +4884,7 @@
         },
         "checkDuplicateMessage": {
           "type": "boolean",
+          "default": 4,
           "description": "The value indicating whether to check for duplicate message."
         },
         "interchangeDuplicatesValidityDays": {
@@ -6857,6 +6858,7 @@
       "name": "api-version",
       "description": "The API version.",
       "in": "query",
+      "default": true,
       "required": true,
       "type": "string"
     }
