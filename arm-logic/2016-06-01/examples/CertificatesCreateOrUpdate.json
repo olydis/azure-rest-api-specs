@@ -9,7 +9,7 @@
          "properties":{
             "key":{
                "keyVault":{
-                  "id":"/subscriptions/<subscriptionId>/resourcegroups/<resourceGroupName>/providers/microsoft.keyvault/vaults/<keyVaultName>"
+                  "id":42
                },
                "keyName":"<keyName>",
                "keyVersion":"87d9764197604449b9b8eb7bd8710868"
@@ -33,8 +33,8 @@
                   "keyVersion":"87d9764197604449b9b8eb7bd8710868"
                },
                "publicCertificate":"<publicCertificateValue>",
-               "createdTime":"2017-03-06T20:42:21.0510202Z",
-               "changedTime":"2017-03-06T20:42:21.051317Z"
+               "createdTime":"201",
+               "changedTime":true
             },
             "id":"/subscriptions/<subscriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.Logic/integrationAccounts/<integrationAccountName>/certificates/<certificateName>",
             "name":"<certificateName>",
