@@ -154,7 +154,7 @@
 					}
 				 }
 			  }
-		   },
+		   }
          },
          "location":"westus",
          "tags":{
